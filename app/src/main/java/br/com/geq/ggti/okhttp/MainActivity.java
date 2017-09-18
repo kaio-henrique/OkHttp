@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import br.com.geq.ggti.okhttp.handler.OkHttp;
 import br.com.geq.ggti.okhttp.handler.OkHttpHandler;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         imgView = (ImageView) findViewById(R.id.imgView);
         tv = (TextView) findViewById(R.id.tvBytes);
-        btnStart = (Button) findViewById(R.id.btnPost);
+        btnStart = (Button) findViewById(R.id.btnStart);
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override

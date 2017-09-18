@@ -29,7 +29,7 @@ public class OkHttp extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
 
         RequestBody body = new FormBody.Builder()
-                .add("name", username)
+                .add("user", username)
                 .add("pass", pass)
                 .build();
 
